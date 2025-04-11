@@ -1,0 +1,112 @@
+h1 {
+    font: size 5px;
+ }
+
+ .first1 {
+     color: brown;
+}
+
+.first1:hover {
+ font-size: large;
+ color: red;
+ cursor: pointer;
+}
+
+#second {
+ font-size: 20px;
+}
+
+#second.hover {
+ width: fit-content;
+ font-size: 5em;
+}
+
+.second {
+ background-color: black;
+ color: whitesmoke;
+}
+
+.toluwa {
+ color: violet;
+}
+
+.K {
+ color: orangered;
+
+}
+
+
+header nav ul li {
+    display: inlineblock;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+p {
+    border: 1px solid black
+}
+
+h1 {
+    color: red;
+ }
+ .shop {
+    color: blue;
+ }
+ #hi {
+    color: darkred;
+ }
+ header nav ul li {
+    display: inline-block;
+ }
+
+p {
+    border: 1px solid black;
+}
+
+#edibles {
+    border: 1px solid black;
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
+
+#edibles .cont {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sub-edibles {
+    width: 300px;
+}
+
+main {
+    display: flex;
+}
+.mainsection {
+    border:1px solid black;
+
+    flex: 80%;
+}
+aside {
+    flex: 20%;
+    border: 1px solid black;
+}
+
+
+
+h1 {
+    color: aquamarine;
+}
+
+.shop {
+    color: chocolate;
+}
+
