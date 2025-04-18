@@ -110,3 +110,26 @@ h1 {
     color: chocolate;
 }
 
+footer {
+    display: flex;
+    gap: 10px;
+    padding: 10px 5px;
+}
+
+footer .parts > article {
+    width: 250px;
+    height: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.8s;
+    color: aliceblue;
+  
+}
+
+footer section > article> h3 {
+    text-align: center;
+}
+
+footer .parts > article:hover {
+    background-color: rgba(42, 42, 75, 0.7);
+}
